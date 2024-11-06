@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cgvwognyftvia"]
+
+[sub_resource type="TextMesh" id="TextMesh_6w6ip"]
+text = "Hello :)"
+font_size = 52
+
+[node name="Node3D" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("TextMesh_6w6ip")
